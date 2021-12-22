@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!--normalize sẽ reset css mặc định-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" data-aos-easing="slide" data-aos-duration="800" data-aos-delay="0" data-new-gr-c-s-check-loaded="14.1002.0" data-gr-ext-installed="">
+    <div class="app">
+        <!-- Top-bar-->
+        <div class="top-bar hide-on-mobile-tablet" id="home-section" data-aos="fade-up">
+            <div class="grid wide top-bar_container">
+                <div class="row">
+                    <div class="col l-6 m-6 c-6 top-bar_container-left">
+                        <ul class="social-media-list">
+                            <li class="social-media-item">
+                                <a href="#" class="social-media-item-link">
+                                    <i class="social-media-item-icon fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="social-media-item">
+                                <a href="#" class="social-media-item-link">
+                                    <i class="social-media-item-icon fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="social-media-item">
+                                <a href="#" class="social-media-item-link">
+                                    <i class="social-media-item-icon fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="social-media-item">
+                                <a href="#" class="social-media-item-link">
+                                    <i class="social-media-item-icon fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-6 m-6 c-6 top-bar_container-right">
+                        <ul class="social-address-list">
+                            <li class="social-address-item">
+                                <a href="tel:(+1) 234 5678 9101" class="social-address-item-link">
+                                    <i class="social-address-item-icon fas fa-phone-alt"></i>
+                                    <span class="social-address-item-text hide-on-mobile-tablet">(+1) 234 5678 9101</span>
+                                </a>
+                            </li>
+                            <li class="social-address-item">
+                                <a href="mailto:shop@yourdomain.com" class="social-address-item-link">
+                                    <i class="social-address-item-icon fas fa-envelope"></i>
+                                    <span class="social-address-item-text hide-on-mobile-tablet">shop@yourdomain.com</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header -->
+        <header id="header" class="header">
+            <!--header : là block-->
+            <div class="grid wide header__container">
+                <div class="row header__container-align">
+                    <div class="col l-2 m-6 c-6 header__container-logo">
+                        <div class="header__navbar__site-logo">
+                            <a href="#" class="header__navbar__site-logo-link">
+                                <h1 id="header__navbar__site-logo-text" class="header__navbar__site-logo-text">Selling<span
+                                        class="header__navbar__site-logo-text-dot">.</span>
+                                </h1>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="col l-10 m-6 c-6">
+                        <div id="mobile-menu" class="mobile-menu-btn hide-on-pc">
+                            <div id="pencet" class="">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <label id="nav__overlay" class=""></label>
+                        <nav id="header__navbar-on-mobile" class="header__navbar header__navbar-on-mobile">
+                            <!-- block__navbar : là  element-->
+                            <ul class="header__navbar-list">
+                                <li class="header__navbar-item active">
+                                    <a href="#home-section" class="header__navbar-item-link">
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="header__navbar-item">
+                                    <a href="#products-section" class="header__navbar-item-link">
+                                        Products
+                                    </a>
+                                </li>
+                                <li class="header__navbar-item">
+                                    <a href="#about-section" class="header__navbar-item-link">
+                                        About Us
+                                    </a>
+                                </li>
+                                <li class="header__navbar-item">
+                                    <a href="#services-section" class="header__navbar-item-link">
+                                        Special
+                                    </a>
+                                </li>
+
+                                <li class="header__navbar-item">
+                                    <a href="#contact-section" class="header__navbar-item-link">
+                                        Contact
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="app__container">
+            <div class="background-img">
+                <div class="grid wide home_withus">
+                    <div class="row home_withus-center">
+                        <div class="col l-7 m-7">
+                            <h1 class="home_withus-tilte">Shop With Us</h1>
+                            <p class="home_withus-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Laboriosam assumenda ea quo cupiditate facere deleniti fuga officia.</p>
+
+                            <button class="btn btn-shopnow">Shop Now</button>
+                            <!-- <button class="btn btn-membership">Club Membership</button> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Products -->
+            <div class="product" id="products-section" data-aos="fade-up">
+                <div class="grid wide">
+                    <div class="row product-center">
+                        <div class="col l-6 l-o-3 m-8 m-o-2">
+                            <h3 class="common_header-sub-title">POPULAR PRODUCTS</h3>
+                            <h2 class="common_header-title">Our Products</h2>
+                            <p class="common_header-decription">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Repudiandae nostrum natus excepturi fuga ullam accusantium vel ut eveniet aut
+                                consequatur laboriosam ipsam.</p>
+                        </div>
+                    </div>
+
+                    <div class="row product-list">
+                        <div class="col l-4 m-6 c-12">
+                            <div class="product-item">
+                                <figure>
+                                    <img src="https://preview.colorlib.com/theme/selling/images/xmodel_1_bg.jpg.pagespeed.ic.MqZSBTpzh5.webp"
+                                        alt="" class="product-item--img">
+                                </figure>
+
+                                <h3 class="product-name">
+                                    <a href="#" class="product-name-link">
+                                        Wild West Hoodie
+                                    </a>
+                                </h3>
+                                <div class="product-rate-wishlist">
+                                    <span class="product-ratting">
+                                        <a href="#" class="product-ratting-link">
+                                            <i class="fas fa-star"></i>
+                                        </a>
+                                        5.0
+                                    </span>
+                                    <span class="product-wishlist">
+                                        <a href="" class="product-wishlist-link">
+                                            <i class="fas fa-heart"></i>
+                                        </a>
+                                        29
+                                    </span>
+                                </div>
+                                <p class="product-decription">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                                <div class="product_button-list">
+                                    <button class="btn btn_product-item-cart">CART</button>
+                                    <button class="btn btn_product-item-view">VIEW</button>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col l-4 m-6 c-12">
+                            <div class="product-item">
+                                <figure>
+                                    <img src="https://preview.colorlib.com/theme/selling/images/xmodel_1_bg.jpg.pagespeed.ic.MqZSBTpzh5.webp"
+                                        alt="" class="product-item--img">
+                                </figure>
+
+                                <h3 class="product-name">
+                                    <a href="#" class="product-name-link">
+                                        Wild West Hoodie
+                                    </a>
+                                </h3>
+                                <div class="product-rate-wishlist">
+                                    <span class="product-ratting">
+                                        <a href="#" class="product-ratting-link">
+                                            <i class="fas fa-star"></i>
+                                        </a>
+                                        5.0
+                                    </span>
+                                    <span class="product-wishlist">
+                                        <a href="" class="product-wishlist-link">
+                                            <i class="fas fa-heart"></i>
+                                        </a>
+                                        29
+                                    </span>
+                                </div>
+                                <p class="product-decription">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                                <div class="product_button-list">
+                                    <button class="btn btn_product-item-cart">CART</button>
+                                    <button class="btn btn_product-item-view">VIEW</button>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col l-4 m-6 c-12">
+                            <div class="product-item">
+                                <figure>
+                                    <img src="https://preview.colorlib.com/theme/selling/images/xmodel_1_bg.jpg.pagespeed.ic.MqZSBTpzh5.webp"
+                                        alt="" class="product-item--img">
+                                </figure>
+
+                                <h3 class="product-name">
+                                    <a href="#" class="product-name-link">
+                                        Wild West Hoodie
+                                    </a>
+                                </h3>
+                                <div class="product-rate-wishlist">
+                                    <span class="product-ratting">
+                                        <a href="#" class="product-ratting-link">
+                                            <i class="fas fa-star"></i>
+                                        </a>
+                                        5.0
+                                    </span>
+                                    <span class="product-wishlist">
+                                        <a href="" class="product-wishlist-link">
+                                            <i class="fas fa-heart"></i>
+                                        </a>
+                                        29
+                                    </span>
+                                </div>
+                                <p class="product-decription">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                                <div class="product_button-list">
+                                    <button class="btn btn_product-item-cart">CART</button>
+                                    <button class="btn btn_product-item-view">VIEW</button>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col l-4 m-6 c-12">
+                            <div class="product-item">
+                                <figure>
+                                    <img src="https://preview.colorlib.com/theme/selling/images/xmodel_1_bg.jpg.pagespeed.ic.MqZSBTpzh5.webp"
+                                        alt="" class="product-item--img">
+                                </figure>
+
+                                <h3 class="product-name">
+                                    <a href="#" class="product-name-link">
+                                        Wild West Hoodie
+                                    </a>
+                                </h3>
+                                <div class="product-rate-wishlist">
+                                    <span class="product-ratting">
+                                        <a href="#" class="product-ratting-link">
+                                            <i class="fas fa-star"></i>
+                                        </a>
+                                        5.0
+                                    </span>
+                                    <span class="product-wishlist">
+                                        <a href="" class="product-wishlist-link">
+                                            <i class="fas fa-heart"></i>
+                                        </a>
+                                        29
+                                    </span>
+                                </div>
+                                <p class="product-decription">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                                <div class="product_button-list">
+                                    <button class="btn btn_product-item-cart">CART</button>
+                                    <button class="btn btn_product-item-view">VIEW</button>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col l-4 m-6 c-12">
+                            <div class="product-item">
+                                <figure>
+                                    <img src="https://preview.colorlib.com/theme/selling/images/xmodel_1_bg.jpg.pagespeed.ic.MqZSBTpzh5.webp"
+                                        alt="" class="product-item--img">
+                                </figure>
+
+                                <h3 class="product-name">
+                                    <a href="#" class="product-name-link">
+                                        Wild West Hoodie
+                                    </a>
+                                </h3>
+                                <div class="product-rate-wishlist">
+                                    <span class="product-ratting">
+                                        <a href="#" class="product-ratting-link">
+                                            <i class="fas fa-star"></i>
+                                        </a>
+                                        5.0
+                                    </span>
+                                    <span class="product-wishlist">
+                                        <a href="" class="product-wishlist-link">
+                                            <i class="fas fa-heart"></i>
+                                        </a>
+                                        29
+                                    </span>
+                                </div>
+                                <p class="product-decription">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                                <div class="product_button-list">
+                                    <button class="btn btn_product-item-cart">CART</button>
+                                    <button class="btn btn_product-item-view">VIEW</button>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col l-4 m-6 c-12">
+                            <div class="product-item">
+                                <figure>
+                                    <img src="https://preview.colorlib.com/theme/selling/images/xmodel_1_bg.jpg.pagespeed.ic.MqZSBTpzh5.webp"
+                                        alt="" class="product-item--img">
+                                </figure>
+
+                                <h3 class="product-name">
+                                    <a href="#" class="product-name-link">
+                                        Wild West Hoodie
+                                    </a>
+                                </h3>
+                                <div class="product-rate-wishlist">
+                                    <span class="product-ratting">
+                                        <a href="#" class="product-ratting-link">
+                                            <i class="fas fa-star"></i>
+                                        </a>
+                                        5.0
+                                    </span>
+                                    <span class="product-wishlist">
+                                        <a href="" class="product-wishlist-link">
+                                            <i class="fas fa-heart"></i>
+                                        </a>
+                                        29
+                                    </span>
+                                </div>
+                                <p class="product-decription">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                                <div class="product_button-list">
+                                    <button class="btn btn_product-item-cart">CART</button>
+                                    <button class="btn btn_product-item-view">VIEW</button>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="subscribe__background-img">
+                    <div class="grid wide">
+                        <div class="row subscribe-center">
+                            <div class="col l-6 l-o-3 m-8 m-o-2 c-12">
+                                <h2 class="subscribe-title">Get notified on each updates.</h2>
+                                <form action="" method="post">
+                                    <div class="group__form">
+                                        <input type="email" name="" class="subscribe__input-email"
+                                            placeholder="Enter email address">
+                                        <input type="submit" class="btn btn-white" value="Subscribe">
+                                    </div>
+                                </form>
+                                <p class="subscribe-decription">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Fugiat commodi veniam doloremque ducimus tempora.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!--AWESOME PRODUCTS-->
+                <div class="awesome bg-light">
+                <div class="grid wide awesome__product-container">
+                    <div class="row product-center">
+                        <div class="col l-6 l-o-3 m-8 m-o-2">
+                            <h3 class="common_header-sub-title">AWESOME PRODUCTS</h3>
+                            <h2 class="common_header-title">Featured Products</h2>
+                            <p class="common_header-decription">orem ipsum dolor sit amet consectetur adipisicing elit.
+                                Repudiandae nostrum natus excepturi fuga ullam accusantium vel ut eveniet aut
+                                consequatur laboriosam ipsam.</p>
+                        </div>
+                    </div>
+
+                    <div class="row awesome__product">
+                        <div class="col l-6 m-12">
+                            <img src="https://preview.colorlib.com/theme/selling/images/xmodel_1_bg.jpg.pagespeed.ic.MqZSBTpzh5.webp"
+                                alt="" class="awesome__product-img">
+                        </div>
+                        <div class="col l-6 m-12 awesome__product-detail">
+                            <h3 class="awesome__product-name">About This Product</h3>
+                            <p class="awesome__product-decription">Et tempora id nostrum saepe amet doloribus deserunt
+                                totam officiis cupiditate asperiores quasi accusantium voluptatum dolorem quae sapiente
+                                voluptatem ratione odio iure blanditiis earum fuga molestiae alias dicta perferendis
+                                inventore!</p>
+                            <div class="awesome__product-price">
+                                <h3 class="awesome__product-price-lable">Price:</h3>
+                                <span class="awesome__product-price--old">$269.00</span>
+                                <span class="awesome__product-price--current">$69.00</span>
+                            </div>
+                            <div class="product_button-list">
+                                <button class="btn btn_product-item-cart">CART</button>
+                                <button class="btn btn_product-item-view">VIEW</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <!-- About Us -->
+            <div class="about" id="about-section" data-aos="fade-up">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-8 m-12 position-relative">
+                            <img src="https://preview.colorlib.com/theme/selling/images/xabout_1.jpg.pagespeed.ic.7OxcO1aUmE.webp"
+                                alt="" class="about-img">
+                            <div class="about-experience">
+                                <span class="about-year">Trusted Merchant</span>
+                                <span class="about-caption">for 50 years</span>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-12 ai-center">
+                            <div class="about-detail">
+                                <h3 class="common_header-sub-title">MERCHANT COMPANY</h3>
+                                <h2 class="common_header-title">About Us</h2>
+                                <p class="about-decription">orem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Repudiandae nostrum natus excepturi fuga ullam accusantium vel ut eveniet aut
+                                    consequatur laboriosam ipsam.</p>
+
+                                <p><a href="#" class="btn btn-black btn-black--hover rounded-0">Learn More</a></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- TEAM -->
+            <div class="team" data-aos="fade-up">
+                <div class="grid wide">
+                    <div class="row team__header-position">
+                        <div class="team__header">
+                            <h3 class="common_header-sub-title">TEAM</h3>
+                            <h2 class="common_header-title">Leadership</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col l-4 m-6">
+                            <img src="https://preview.colorlib.com/theme/selling/images/xperson_2.jpg.pagespeed.ic.zY-y25qZs4.webp"
+                                alt="" class="team__item-img">
+                            <div class="team__member">
+                                <h3 class="team__member-name">John Rooster</h3>
+                                <p class="team__member-position">CO-FOUNDER, PRESIDENT</p>
+                                <p class="team__member-decription">
+                                    Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste
+                                    error
+                                    eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt
+                                    tenetur.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-6">
+                            <img src="https://preview.colorlib.com/theme/selling/images/xperson_2.jpg.pagespeed.ic.zY-y25qZs4.webp"
+                                alt="" class="team__item-img">
+                            <div class="team__member">
+                                <h3 class="team__member-name">John Rooster</h3>
+                                <p class="team__member-position">CO-FOUNDER, PRESIDENT</p>
+                                <p class="team__member-decription">
+                                    Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste
+                                    error
+                                    eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt
+                                    tenetur.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-6">
+                            <img src="https://preview.colorlib.com/theme/selling/images/xperson_2.jpg.pagespeed.ic.zY-y25qZs4.webp"
+                                alt="" class="team__item-img">
+                            <div class="team__member">
+                                <h3 class="team__member-name">John Rooster</h3>
+                                <p class="team__member-position">CO-FOUNDER, PRESIDENT</p>
+                                <p class="team__member-decription">
+                                    Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste
+                                    error
+                                    eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt
+                                    tenetur.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Services -->
+            <div class="services" id="services-section" data-aos="fade-up">
+                <div class="grid wide">
+                    <div class="row team__header-position">
+                        <div class="team__header">
+                            <h3 class="common_header-sub-title">OUR SERVICES</h3>
+                            <h2 class="common_header-title">We Offer Services</h2>
+                        </div>
+                    </div>
+                    <div class="row services-center">
+                        <div class="col l-4 m-6">
+                            <div class="services__item">
+                                <div class="services__item-icon">
+                                    <i class="fas fa-chart-pie"></i>
+                                </div>
+                                <div class="services__item-container">
+                                    <h3 class="services__item-container-title">Business Consulting</h3>
+                                    <p class="services__item-container-decription">Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-4  m-6">
+                            <div class="services__item">
+                                <div class="services__item-icon">
+                                    <i class="fas fa-chart-pie"></i>
+                                </div>
+                                <div class="services__item-container">
+                                    <h3 class="services__item-container-title">Business Consulting</h3>
+                                    <p class="services__item-container-decription">Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-4 m-6">
+                            <div class="services__item">
+                                <div class="services__item-icon">
+                                    <i class="fas fa-chart-pie"></i>
+                                </div>
+                                <div class="services__item-container">
+                                    <h3 class="services__item-container-title">Business Consulting</h3>
+                                    <p class="services__item-container-decription">Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- contact -->
+            <div class="contact" id="contact-section" data-aos="fade-up">
+                <div class="grid wide">
+                    <div class="row team__header-position">
+                        <div class="team__header">
+                            <h3 class="common_header-sub-title">CONTACT FORM</h3>
+                            <h2 class="common_header-title">Get In Touch</h2>
+                        </div>
+                    </div>
+                    <div class="row contact-center">
+                        <div class="col l-6 l-o-3 m-10 m-o-1">
+                            <form action="#" class="contact__form">
+                                <h2 class="contact__form-title">Contact Form</h2>
+                                <div class="row form-group">
+                                    <div class="col l-6 m-6 c-6">
+                                        <label class="text-black" for="fname">First Name</label>
+                                        <input type="text" id="fname" class="form-control">
+                                    </div>
+                                    <div class="col l-6 m-6 c-6">
+                                        <label class="text-black" for="lname">Last Name</label>
+                                        <input type="text" id="lname" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <div class="col l-12 m-12 c-12">
+                                        <label class="text-black" for="email">Email</label>
+                                        <input type="email" id="email" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <div class="col l-12 m-12 c-12">
+                                        <label class="text-black" for="subject">Subject</label>
+                                        <input type="subject" id="subject" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <div class="col l-12 m-12 c-12">
+                                        <label class="text-black" for="message">Message</label>
+                                        <textarea name="message" id="message" cols="30" rows="7" class="form-control"
+                                            placeholder="Write your notes or questions here..."></textarea>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col l-12 m-12 c-12">
+                                        <input type="submit" value="Send Message" class="btn btn-send-email">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <footer class="footer">
+                <div class="grid wide">
+                    <div class="row app__content">
+                        <div class="col l-2-4 m-4 c-6">
+                            <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+                            <ul class="footer__list">
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">Trung tâm trợ giúp</a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">F8-shop</a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col l-2-4 m-4 c-6">
+                            <h3 class="footer__heading">Giới thiệu</h3>
+                            <ul class="footer__list">
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">Trung tâm trợ giúp</a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">F8-shop</a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col l-2-4 m-4 c-6">
+                            <h3 class="footer__heading">Danh mục</h3>
+                            <ul class="footer__list">
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">Trung tâm trợ giúp</a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">F8-shop</a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col l-2-4 m-4 c-6">
+                            <h3 class="footer__heading">Theo dõi</h3>
+                            <ul class="footer__list">
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">
+                                        <i class="footer-item__icon fab fa-facebook"></i>
+                                        Facebook
+                                    </a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">
+                                        <i class="footer-item__icon fab fa-instagram"></i>
+                                        Instagram
+                                    </a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">
+                                        <i class="footer-item__icon fab fa-linkedin"></i>
+                                        Linkedin
+                                    </a>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col l-2-4 m-4 c-6">
+                            <h3 class="footer__heading">Vào cửa hàng trên ứng dụng</h3>
+                            <div class="footer__dowload">
+                                <img src="./assets/img/qr_code.png" alt="" class="footer__download-qr">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="footer__bottom">
+                    <div class="grid wide">
+                        <p class="footer__text">Bản quyền thuộc về Công Ty</p>
+                    </div>
+                </div>
+            </footer>
+
+            <!-- <div class="modal">
+            <div class="modal__overlay"></div>
+            <div class="modal__body">
+                <div class="modal__inner"> -->
+            <!-- Register form-->
+            <!-- <div class="auth-form">
+                        <div class="auth-form__container">
+                            <div class="auth-form__header">
+                                <h3 class="auth-form__heading">Đăng ký</h3>
+                                <span class="auth-form__switch-btn">Đăng nhập</span>
+                            </div>
+                            <div class="auth-form__form">
+                                <div class="auth-form__group">
+                                    <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                                </div>
+                                <div class="auth-form__group">
+                                    <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                                </div>
+                                <div class="auth-form__group">
+                                    <input type="password" class="auth-form__input" placeholder="nhập lại mật khẩu">
+                                </div>
+                            </div>
+                            <div class="auth-form__aside">
+                                <p class="auth-form__policy-text">Bằng việc đăng ký, bạn đã đồng ý với tôi về
+                                    <a href="" class="auth-form__text-link">Điều khoản dịch vụ</a> &
+                                    <a href="" class="auth-form__text-link">Chính sách bảo mật</a>
+                                </p>
+                            </div>
+                            <div class="auth-form__controls">
+                                <button class="btn btn--normal auth-form__controls-back">TRỞ LẠI</button>
+                                <button class="btn btn--primary">ĐĂNG KÝ</button>
+                            </div>
+                        </div>
+                        <div class="auth-form__socials">
+                            <a href="" class="auth-form__socials--facebook btn btn--size-s btn--with-icon">
+                                <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                                <span class="auth-form__socials-title">Kết nối với Facebook</span> 
+                            </a>
+                            <a href="" class="auth-form__socials--google btn btn--with-icon">
+                                <i class="auth-form__socials-icon fab fa-google"></i>
+                                <span class="auth-form__socials-title">Kết nối với Google</span>
+                            </a>
+                        </div>
+                    </div> -->
+
+            <!-- Login form-->
+            <!-- <div class="auth-form">
+                        <div class="auth-form__container">
+                            <div class="auth-form__header">
+                                <h3 class="auth-form__heading">Đăng Nhập</h3>
+                                <span class="auth-form__switch-btn">Đăng ký</span>
+                            </div>
+                            <div class="auth-form__form">
+                                <div class="auth-form__group">
+                                    <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                                </div>
+                                <div class="auth-form__group">
+                                    <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                                </div>
+                            </div>
+                            <div class="auth-form__aside">
+                                <div class="auth-form__help">
+                                    <a href="" class="auth-form__help-link auth-form__help-forgot">Quên mật khẩu</a>
+                                    <span class="auth-form__help-separate"></span>
+                                    <a href="" class="auth-form__help-link">Cần trợ giúp</a>
+                                </div>
+                            </div>
+                            <div class="auth-form__controls">
+                                <button class="btn btn--normal auth-form__controls-back">TRỞ LẠI</button>
+                                <button class="btn btn--primary">ĐĂNG NHẬP</button>
+                            </div>
+                        </div>
+                        <div class="auth-form__socials">
+                            <a href="" class="auth-form__socials--facebook btn btn--size-s btn--with-icon">
+                                <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                                <span class="auth-form__socials-title">Kết nối với Facebook</span>
+                            </a>
+                            <a href="" class="auth-form__socials--google btn btn--with-icon">
+                                <i class="auth-form__socials-icon fab fa-google"></i>
+                                <span class="auth-form__socials-title">Kết nối với Google</span>
+                            </a>
+                        </div>
+                    </div> -->
+            <!-- </div>
+            </div>
+        </div> -->
+        </div>
+
+        <!-- Animate On Scroll Library JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+
+        <!-- Sticky JS -->
+        <script>
+            window.addEventListener("scroll", function () {
+              var header = document.querySelector("header");
+              header.classList.toggle('sticky', window.scrollY > 0);
+              header.classList.toggle('shrink', window.scrollY > 0);
+            });
+
+            // When the user scrolls down 50px from the top of the document, resize the header's font size
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 102 || document.documentElement.scrollTop > 102) {
+                    document.getElementById("header").style.height = "68px";
+                    document.getElementById("header__navbar__site-logo-text").style.fontSize = "3.5rem";
+                }else if (document.body.scrollTop > 109 || document.documentElement.scrollTop > 109) {
+                    document.getElementById("header").style.height = "75px";
+                } else {
+                    document.getElementById("header").style.height = "96px";
+                    document.getElementById("header__navbar__site-logo-text").style.fontSize = "4.0rem";
+                }
+            }
+          </script>
+
+          <!-- Nav JS -->
+          <script>
+            let ul = document.querySelector(".header__navbar-list");
+            let li = document.querySelectorAll(".header__navbar-item");
+      
+            li.forEach((el) => {
+              el.addEventListener("click", function () {
+                ul.querySelector(".active").classList.remove("active");
+                el.classList.add("active");
+              });
+            });
+
+
+            var sectionIds = $('a.header__navbar-item-link');
+            console.log(sectionIds);
+
+            $(document).scroll(function(){
+                sectionIds.each(function(){
+                    //debugger;
+                    var container = $(this).attr('href');
+                    var containerOffset = $(container).offset().top;
+                    var containerHeight = $(container).outerHeight();
+                    var containerBottom = containerOffset + containerHeight;
+                    var scrollPosition = $(document).scrollTop();
+
+                    if(scrollPosition < containerBottom - 20 && scrollPosition >= containerOffset - 20){
+                        $(this).parent().addClass('active');
+                    } else{
+                        $(this).parent().removeClass('active');
+                    }
+
+
+                });
+            });
+
+            // Mobile menu
+            var mobileMenu      = document.getElementById('header__navbar-on-mobile');
+            var navOverlay      = document.getElementById('nav__overlay');
+            const clickx        = document.getElementById('pencet');
+
+
+            // Change icon menu
+            clickx.addEventListener('click', function(){
+                clickx.classList.toggle('Diam');                // change icon menu
+                mobileMenu.classList.toggle('show-on-mobile');  // hide/show navbar
+                navOverlay.classList.toggle('nav__overlay');     // hide/show overlay
+            });
+
+            // when click on overlay
+            navOverlay.addEventListener('click', function(){
+                clickx.classList.toggle('Diam');                // change icon menu
+                mobileMenu.classList.toggle('show-on-mobile');  // hide/show navbar
+                navOverlay.classList.toggle('nav__overlay');     // hide/show overlay
+            });
+
+          </script>
+          
+</body>
+
+</html>
