@@ -55,32 +55,75 @@
     #pencet{
         display:flex;
         align-items:center;
-        /* margin-top:50vh; */
-        flex-direction:column;
-        cursor:pointer;
+        background-color: initial;
+        border: 1px solid rgba(0,0,0,.1);
+        width: 40px;
+        height: 36px;
+        line-height: 34px;
+        -webkit-border-radius: 3px;
+        -khtml-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+        border-radius: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #222;
+        position: relative;
+        cursor: pointer;
       }
       
-      #pencet span {
-        background-color:var(--black-color);
-        width:2em;
-        height:.2em;
-        margin:0.26em 0;
-        display:block;
-        transition: all .4s ease;
-        transform-origin:0 0;
+      #pencet:before, #pencet::after, #pencet span {
+        -khtml-transition: all 300ms linear 0ms;
+        -moz-transition: all 300ms linear 0ms;
+        -ms-transition: all 300ms linear 0ms;
+        -o-transition: all 300ms linear 0ms;
+        transition: all 300ms linear 0ms;
+        content: "";
+        background-color: #222;
+        display: block;
+        height: 2px;
+        left: 0;
+        margin: auto;
+        position: absolute;
+        right: 0;
+        width: 24px;
+        top: 23px;
+      }
+
+    #pencet:before {
+        top: 9px;
+    }
+
+    #pencet span {
+        top: 16px;
+    }
+      
+    .Diam#pencet:before {
+        top: 15px;
+        -webkit-transform: rotate(45deg);
+            -khtml-transform: rotate(45deg);
+            -moz-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            -o-transform: rotate(45deg);
+            transform: rotate(45deg);
       }
       
-      .Diam span:nth-child(1) {
-        transform: rotate(45deg) translate(1px, -1px);
-      }
+    .Diam#pencet span {
+        display: none;
+    }
       
-      .Diam span:nth-child(2) {
-        Transform: scaleX(0);
-      }
-      
-      .Diam span:nth-child(3) {
-        transform: rotate(-45deg) translate(1px, 0);
-      }
+    .Diam#pencet::after {
+        -webkit-transform: rotate(-45deg);
+        -khtml-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        top: 15px;
+    }
 
     .header__navbar-on-mobile i {
         font-size: 2.6rem;

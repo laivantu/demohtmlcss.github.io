@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!--normalize sẽ reset css mặc định-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/blog.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" data-aos-easing="slide" data-aos-duration="800" data-aos-delay="0" data-new-gr-c-s-check-loaded="14.1002.0" data-gr-ext-installed="">
+    <div id="home-section" class="app">
+        <!-- Top-bar-->
+        <div class="top-bar hide-on-mobile-tablet" data-aos="fade-up">
+            <div class="grid wide top-bar_container">
+                <div class="row">
+                    <div class="col l-6 m-6 c-6 top-bar_container-left">
+                        <ul class="social-media-list">
+                            <li class="social-media-item">
+                                <a href="#" class="social-media-item-link">
+                                    <i class="social-media-item-icon fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="social-media-item">
+                                <a href="#" class="social-media-item-link">
+                                    <i class="social-media-item-icon fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="social-media-item">
+                                <a href="#" class="social-media-item-link">
+                                    <i class="social-media-item-icon fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="social-media-item">
+                                <a href="#" class="social-media-item-link">
+                                    <i class="social-media-item-icon fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-6 m-6 c-6 top-bar_container-right">
+                        <ul class="social-address-list">
+                            <li class="social-address-item">
+                                <a href="tel:(+1) 234 5678 9101" class="social-address-item-link">
+                                    <i class="social-address-item-icon fas fa-phone-alt"></i>
+                                    <span class="social-address-item-text hide-on-mobile-tablet">(+1) 234 5678 9101</span>
+                                </a>
+                            </li>
+                            <li class="social-address-item">
+                                <a href="mailto:shop@yourdomain.com" class="social-address-item-link">
+                                    <i class="social-address-item-icon fas fa-envelope"></i>
+                                    <span class="social-address-item-text hide-on-mobile-tablet">shop@yourdomain.com</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header -->
+        <header id="header" class="header">
+            <!--header : là block-->
+            <div class="grid wide header__container">
+                <div class="row header__container-align">
+                    <div class="col l-2 m-6 c-6 header__container-logo">
+                        <div class="header__navbar__site-logo">
+                            <a href="#" class="header__navbar__site-logo-link">
+                                <h1 id="header__navbar__site-logo-text" class="header__navbar__site-logo-text">Selling<span
+                                        class="header__navbar__site-logo-text-dot">.</span>
+                                </h1>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="col l-10 m-6 c-6">
+                        <div id="mobile-menu" class="mobile-menu-btn hide-on-pc">
+                            <div id="pencet" class="">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <label id="nav__overlay" class=""></label>
+                        <nav id="header__navbar-on-mobile" class="header__navbar header__navbar-on-mobile">
+                            <!-- block__navbar : là  element-->
+                            <ul class="header__navbar-list">
+                                <li class="header__navbar-item">
+                                    <a href="http://127.0.0.1:5500/index.html#home-section" class="header__navbar-item-link">
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="header__navbar-item">
+                                    <a href="http://127.0.0.1:5500/index.html#products-section" class="header__navbar-item-link">
+                                        Products
+                                    </a>
+                                </li>
+                                <li class="header__navbar-item">
+                                    <a href="http://127.0.0.1:5500/index.html#about-section" class="header__navbar-item-link">
+                                        About Us
+                                    </a>
+                                </li>
+                                <li class="header__navbar-item">
+                                    <a href="http://127.0.0.1:5500/index.html#services-section" class="header__navbar-item-link">
+                                        Special
+                                    </a>
+                                </li>
+
+                                <li class="header__navbar-item">
+                                    <a href="http://127.0.0.1:5500/index.html#contact-section" class="header__navbar-item-link">
+                                        Contact
+                                    </a>
+                                </li>
+
+                                <li class="header__navbar-item active">
+                                    <a href="blog.html" class="header__navbar-item-link">
+                                        Blog
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="app__container">
+            <!-- Blog -->
+            <div class="blog">
+                <div class="grid wide">
+                    <div class="row blog-center">
+                        <div class="col l-6 l-o-3 m-8 m-o-2">
+                            <h3 class="common_header-sub-title">In the News</h3>
+                            <h2 class="common_header-title">News</h2>
+                        </div>
+                    </div>
+
+                    <div class="row blog-list">
+                        <div class="col l-4 m-6 c-12">
+                            <div class="blog-item">
+                                <a href="#">
+                                    <figure>
+                                        <img src="https://preview.colorlib.com/theme/selling/images/xmodel_1_bg.jpg.pagespeed.ic.MqZSBTpzh5.webp"
+                                            alt="" class="blog-item--img">
+                                    </figure>
+                                </a>
+                                <div class="blog-creator">
+                                    <span class="blog-date">
+                                        <i class="fas fa-clock"></i>
+                                        February 19, 2018
+                                    </span>
+                                    <span class="blog-creator-name">
+                                        By Admin
+                                    </span>
+
+                                    <h3 class="blog-name">
+                                        <a href="#" class="blog-name-link">
+                                            Wild West Hoodie
+                                        </a>
+                                    </h3>
+                                    
+                                    <p class="blog-decription">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                                    
+                                    <div class="blog-read-more">
+                                        <a class="blog-read-more-link" style="border-radius: 20px;" href="#" target="_self"> Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-6 c-12">
+                            <div class="blog-item">
+                                <a href="#">
+                                    <figure>
+                                        <img src="https://preview.colorlib.com/theme/selling/images/xmodel_1_bg.jpg.pagespeed.ic.MqZSBTpzh5.webp"
+                                            alt="" class="blog-item--img">
+                                    </figure>
+                                </a>
+                                <div class="blog-creator">
+                                    <span class="blog-date">
+                                        <i class="fas fa-clock"></i>
+                                        February 19, 2018
+                                    </span>
+                                    <span class="blog-creator-name">
+                                        By Admin
+                                    </span>
+
+                                    <h3 class="blog-name">
+                                        <a href="#" class="blog-name-link">
+                                            Wild West Hoodie
+                                        </a>
+                                    </h3>
+                                    
+                                    <p class="blog-decription">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                                    
+                                    <div class="blog-read-more">
+                                        <a class="blog-read-more-link" style="border-radius: 20px;" href="#" target="_self"> Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-6 c-12">
+                            <div class="blog-item">
+                                <a href="#">
+                                    <figure>
+                                        <img src="https://preview.colorlib.com/theme/selling/images/xmodel_1_bg.jpg.pagespeed.ic.MqZSBTpzh5.webp"
+                                            alt="" class="blog-item--img">
+                                    </figure>
+                                </a>
+                                <div class="blog-creator">
+                                    <span class="blog-date">
+                                        <i class="fas fa-clock"></i>
+                                        February 19, 2018
+                                    </span>
+                                    <span class="blog-creator-name">
+                                        By Admin
+                                    </span>
+
+                                    <h3 class="blog-name">
+                                        <a href="#" class="blog-name-link">
+                                            Wild West Hoodie
+                                        </a>
+                                    </h3>
+                                    
+                                    <p class="blog-decription">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                                    
+                                    <div class="blog-read-more">
+                                        <a class="blog-read-more-link" style="border-radius: 20px;" href="#" target="_self"> Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+
+            <footer class="footer">
+                <div class="grid wide">
+                    <div class="row app__content">
+                        <div class="col l-2-4 m-4 c-6">
+                            <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+                            <ul class="footer__list">
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">Trung tâm trợ giúp</a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">F8-shop</a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col l-2-4 m-4 c-6">
+                            <h3 class="footer__heading">Giới thiệu</h3>
+                            <ul class="footer__list">
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">Trung tâm trợ giúp</a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">F8-shop</a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col l-2-4 m-4 c-6">
+                            <h3 class="footer__heading">Danh mục</h3>
+                            <ul class="footer__list">
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">Trung tâm trợ giúp</a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">F8-shop</a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col l-2-4 m-4 c-6">
+                            <h3 class="footer__heading">Theo dõi</h3>
+                            <ul class="footer__list">
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">
+                                        <i class="footer-item__icon fab fa-facebook"></i>
+                                        Facebook
+                                    </a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">
+                                        <i class="footer-item__icon fab fa-instagram"></i>
+                                        Instagram
+                                    </a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">
+                                        <i class="footer-item__icon fab fa-linkedin"></i>
+                                        Linkedin
+                                    </a>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col l-2-4 m-4 c-6">
+                            <h3 class="footer__heading">Vào cửa hàng trên ứng dụng</h3>
+                            <div class="footer__dowload">
+                                <img src="./assets/img/qr_code.png" alt="" class="footer__download-qr">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="footer__bottom">
+                    <div class="grid wide">
+                        <p class="footer__text">Bản quyền thuộc về Công Ty</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <!-- Animate On Scroll Library JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+
+        <!-- Sticky JS -->
+        <script>
+            window.addEventListener("scroll", function () {
+              var header = document.querySelector("header");
+              header.classList.toggle('sticky', window.scrollY > 0);
+              header.classList.toggle('shrink', window.scrollY > 0);
+            });
+
+            // When the user scrolls down 50px from the top of the document, resize the header's font size
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 102 || document.documentElement.scrollTop > 102) {
+                    document.getElementById("header").style.height = "68px";
+                    document.getElementById("header__navbar__site-logo-text").style.fontSize = "3.5rem";
+                }else if (document.body.scrollTop > 109 || document.documentElement.scrollTop > 109) {
+                    document.getElementById("header").style.height = "75px";
+                } else {
+                    document.getElementById("header").style.height = "96px";
+                    document.getElementById("header__navbar__site-logo-text").style.fontSize = "4.0rem";
+                }
+            }
+          </script>        
+
+          <!-- Nav JS -->
+          <script>
+            // Mobile menu
+            var mobileMenu      = document.getElementById('header__navbar-on-mobile');
+            var navOverlay      = document.getElementById('nav__overlay');
+            const clickx        = document.getElementById('pencet');
+
+
+            // Change icon menu
+            clickx.addEventListener('click', function(){
+                clickx.classList.toggle('Diam');                // change icon menu
+                mobileMenu.classList.toggle('show-on-mobile');  // hide/show navbar
+                navOverlay.classList.toggle('nav__overlay');     // hide/show overlay
+            });
+
+            // when click on overlay
+            navOverlay.addEventListener('click', function(){
+                clickx.classList.toggle('Diam');                // change icon menu
+                mobileMenu.classList.toggle('show-on-mobile');  // hide/show navbar
+                navOverlay.classList.toggle('nav__overlay');     // hide/show overlay
+            });
+
+          </script>
+          
+</body>
+
+</html>
