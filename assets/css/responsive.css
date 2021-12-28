@@ -8,6 +8,10 @@
        display: none;
    }
 
+   .header__navbar-list {
+       display: block;
+   }
+
    .header__navbar-item {
        display: block;
        padding: 10px 0;
